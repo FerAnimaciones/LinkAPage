@@ -16,4 +16,4 @@ LinkAPage Proyecto Escolar HTML PHP
 ![Alt text](/imagenes/capturas/cap5.png)
 
 ## Community
-* Pagina oficial de feranimaciones [Official Website](feranimaciones.esy.es/).
+* Pagina oficial de feranimaciones [Official Website](http://feranimaciones.esy.es/).
