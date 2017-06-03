@@ -1,0 +1,29 @@
+@import 'https://fonts.googleapis.com/css?family=Dosis';
+
+div label{
+	display: block;
+	color: gray;
+}
+
+@media screen and (min-width: 300px){
+	label{
+		font-family:'Dosis';
+		font-size: 18px;
+		margin-right: 15px;
+	}
+}
+@media screen and (min-width: 500px){
+	label{
+		display: block;
+		text-align: right;
+		font-family:'Dosis';
+		font-size: 18px;
+		margin-right: 15px;
+	}
+}
+.botones{
+	margin-right: 10px;
+}
+div .renglon {
+	padding-bottom: 10px;
+}

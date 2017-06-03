@@ -1,0 +1,196 @@
+@import 'https://fonts.googleapis.com/css?family=Dosis';
+@import 'https://fonts.googleapis.com/css?family=Handlee';
+@import 'https://fonts.googleapis.com/css?family=Pathway+Gothic+One';
+@import 'https://fonts.googleapis.com/css?family=Quicksand';
+
+article {
+	box-shadow:0px 3px 5px #888888;
+	background-color: #f5564a;
+}
+footer {
+	padding:0px;
+	border:2px dotted black;
+	background-color: #5f5f5f ;
+	clear: both;
+
+}
+p{
+	color: white;
+	text-align: center;
+}
+header h1{    
+	font-family:'Baloo Paaji';
+	text-shadow:5px 5px 5px #000000;
+	color: white;
+	margin:20px;
+}
+.texto{
+	margin:20px;
+	color: black;
+}
+h2 {
+	color: white;
+	/* text-align:  center; */
+	padding: 0px;
+	margin: 0px;
+}
+#div_principal {
+	background-color: white;
+	width: 70%;
+	margin: auto;
+	border:1px solid black;
+	font-family:arial,sans-serif;
+		overflow: auto;
+
+}
+body {
+	background-image: url('../imagenes/34-01.jpg');
+}
+
+nav { 
+	box-shadow:0px 3px 5px #888888;
+	text-shadow:0 px 3 px 5 px #888888;
+	background-color: #5f5f5f;
+	text-align: left;
+	font-family:'Dosis';
+	padding: 1px;
+}
+
+nav a:hover{
+	background-color: #333333;
+}
+
+main a{
+	color: white;
+	text-decoration: none;
+}
+article:hover {
+	box-shadow:0px 3px 12px #333333;
+}
+main {
+
+}
+.invertir {-webkit-filter: invert(100%); filter: invert(100%);}
+.Categoria {
+	font-family:'Pathway Gothic One';
+	background: #f5564a ; 
+    width: 100%;
+	box-shadow: 0,3,5,#888888;
+	display:block;
+	float: left;
+	
+}
+	
+.Principal {
+	text-align:  center;
+	font-family:'Handlee';
+	background: #4caf50 ; 
+	width: 95%;
+	margin-top: 20px;
+	margin-left: 2%;
+	box-shadow: 0,3,5,#888888;
+	padding: 5px;
+	border-radius: 20px;
+	clear: both;
+}
+header {
+	background:  #F5923F;
+	padding: 1px;
+}
+article a:hover {
+	color: yellow;
+}
+li  a{
+	font-family:'Quicksand';
+}
+ul {
+	
+}
+#bardiv {
+	background-color: maroon ; 
+}
+.imgderecha {
+	margin-top: 10px;
+	margin-right: 10px;
+	float: right;
+	cursor: pointer;
+}
+footer {
+	clear: both;
+}
+.menu-item{
+	float: left;
+}
+nav ul {
+	list-style: none;
+}
+nav a{
+	text-decoration: none;
+	padding: 15px;
+	display: block;
+	color: white;
+}
+/*
+nav a{
+   
+  color: white;
+  text-decoration: none;
+  padding: 1px;
+}
+*/
+nav ul, nav li {
+	padding: 0px;
+	margin:0px;
+}
+nav li {
+	/*width: 200px;*/
+	padding-right: 50;
+	background-color: #5f5f5f;
+
+}
+nav {
+	background-color: #5f5f5f;
+	overflow: auto;
+}
+.submenu{
+	display: none;
+	position: absolute;
+}
+.menu-item:hover .submenu{
+	animation-name: Menu;
+	animation-duration: 2s;	
+	opacity:  0.95;
+	display: block;
+}
+nav li:hover{
+	background-color: #333333;
+
+}
+@keyframes Menu{
+		
+	from{
+		opacity: 0;
+	}
+	to{
+		opacity: 0.95;
+	}
+}
+.margenes {
+	padding: 4%;
+	
+	display: inline;
+	overflow: left;
+
+}
+.panelMensajes{
+	padding-top: 100px;
+	padding-bottom: 100px;
+	text-align: center;
+}
+.ingresar{
+	float: right;
+	color: white;
+	text-align: right;
+	margin-top: 10px;
+	margin-right: 10px;
+}
